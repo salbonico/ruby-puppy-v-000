@@ -9,8 +9,16 @@ def initialize(name)
 @@all << self
 end
 
-self.clear_all
+def self.clear_all
 @@all.clear
 end
+
+
+def self.all
+
+@@all.each do |object|
+  puts object.name
+  end
+
 
 end
