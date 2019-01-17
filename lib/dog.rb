@@ -19,6 +19,6 @@ def self.all
 @@all.each do |object|
   puts object.name
   end
-
+end
 
 end
